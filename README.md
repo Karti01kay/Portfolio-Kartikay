@@ -9,7 +9,7 @@ By developing this project, you will gain hands-on experience in crafting immers
 
 
 # ⚙️ Tech Stack
-React.js
+\ 'React.js'
 Three.js
 React Three Fiber
 React Three Drei
