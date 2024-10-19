@@ -169,6 +169,28 @@ import {
   
   const projects = [
     {
+      name: "House Price Prediction",
+      description:
+        "A machine learning based model, trained on the House Price Prediction Dataset, which uses a Linear Regression model to forecast the prices",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://colab.research.google.com/drive/1DeOcCyMt8nbJiAkfohEbKHuTjm3hZCuo#scrollTo=W_5v5Ze3wdnN",
+    },
+
+    {
       name: "My Brainwave",
       description:
         "Modern UI/UX website, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard.",
@@ -189,27 +211,7 @@ import {
       image: carrent,
       source_code_link: "https://github.com/Karti01kay/My-brainWave",
     },
-    {
-      name: "Hospital Booking",
-      description:
-        "A mern stack doctor appointment booking website using react.js, node.js, express.js, MongoDB, JWT, stripe payment gateway from scratch with modern UI and UX.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/Karti01kay/Hospital-Booking",
-    },
+    
     {
       name: "Trip Guide",
       description:
