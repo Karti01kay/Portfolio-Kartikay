@@ -75,6 +75,29 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
+
+          <div className="pt-8">
+            <a 
+              href="https://www.linkedin.com/in/kartikay-singh-172899227/" 
+              target="_blank" 
+              className="bg-primary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary">
+                Linkedin
+            </a>
+
+            <a 
+              href="https://www.instagram.com/kartik_10.messi/?hl=en" 
+              target="_blank" 
+              className="bg-primary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary">
+                Instagram
+            </a>
+
+            <a 
+              href="https://github.com/Karti01kay" 
+              target="_blank" 
+              className="bg-primary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary">
+                Github
+            </a>
+          </div>
         </form>
       </motion.div>
 
