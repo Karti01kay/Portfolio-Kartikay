@@ -31,6 +31,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import tnp from "./tnp.png";
 import metaverse from "./metaverse.png";
+import hospital from "./hospital.png";
 
 export {
   logo,
@@ -63,4 +64,5 @@ export {
   tripguide,
   tnp,
   metaverse,
+  hospital,
 };
