@@ -17,6 +17,7 @@ import {
     docker,
     tnp,
     metaverse,
+    hospital,
     carrent,
     jobit,
     tripguide,
@@ -200,7 +201,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: hospital,
       source_code_link: "https://github.com/Karti01kay/Hospital-Booking",
     },
 
