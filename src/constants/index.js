@@ -19,7 +19,6 @@ import {
     metaverse,
     hospital,
     carrent,
-    jobit,
     tripguide,
     threejs,
   } from "../assets";
@@ -250,7 +249,7 @@ import {
     },
 
     {
-      name: "T&P Cell, MMMUT",
+      name: "T&P Cell Website",
       description:
         "The official website of Training and Placement Cell of MMMUT, that gives users a brief overview into the placement data, achievements and training activities.",
       tags: [
