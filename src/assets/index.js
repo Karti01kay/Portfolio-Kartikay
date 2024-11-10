@@ -27,7 +27,6 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import tnp from "./tnp.png";
 import metaverse from "./metaverse.png";
@@ -60,7 +59,6 @@ export {
   starbucks,
   tesla,
   carrent,
-  jobit,
   tripguide,
   tnp,
   metaverse,
