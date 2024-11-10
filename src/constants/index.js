@@ -15,6 +15,8 @@ import {
     git,
     figma,
     docker,
+    tnp,
+    metaverse,
     carrent,
     jobit,
     tripguide,
@@ -112,30 +114,42 @@ import {
   
   const experiences = [
     {
+      title: "Full Stack Developer Intern",
+      company_name: "Midlead Technovations",
+      icon: web,
+      iconBg: "#383E56",
+      date: "November 2024 - ongoing",
+      points: [
+        "Developing and maintaining web applications using Web3, blockchain and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Integrating machine learning models in the applications",
+        "Participating in code reviews, debugging and testing",
+      ],
+    },
+
+    {
       title: "Web Developer Intern",
       company_name: "NullClass",
       icon: web,
       iconBg: "#383E56",
       date: "July 2024 - September 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing web applications using React.js and other related technologies.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     
     {
-      title: "Full Stack Developer",
+      title: "Frontend Developer",
       company_name: "Oasis Infobyte",
       icon: web,
-      iconBg: "#E6DEDD",
-      date: "March 2023 - August 2023",
+      iconBg: "#383E56",
+      date: "March 2023 - May 2023",
       points: [
-        "Developing and maintaining applications using React.js, Next.js, Figma and the backend technologies including Express.js, Node.js, MongoDB and Flask.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed websites using React.js, Next.js, Figma and Vue.js",
+        "Implementing a responsive design",
+        "Participating in code reviews",
       ],
     },
   ];
@@ -143,7 +157,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was impossible to make a website this beautiful, but Kartikay proved me wrong.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -151,7 +165,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like Kartikay does.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -159,7 +173,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Kartikay optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
@@ -169,9 +183,9 @@ import {
   
   const projects = [
     {
-      name: "House Price Prediction",
+      name: "Hospital Booking",
       description:
-        "A machine learning based model, trained on the House Price Prediction Dataset, which uses a Linear Regression model to forecast the prices",
+        "A Full Stack hospital booking app with Firebase authentication framework, stripe payment gateway, and an automated review process into the real-time database.",
       tags: [
         {
           name: "react",
@@ -182,12 +196,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://colab.research.google.com/drive/1DeOcCyMt8nbJiAkfohEbKHuTjm3hZCuo#scrollTo=W_5v5Ze3wdnN",
+      source_code_link: "https://github.com/Karti01kay/Hospital-Booking",
     },
 
     {
@@ -232,6 +246,50 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/Karti01kay/Tour-Management",
+    },
+
+    {
+      name: "T&P Cell, MMMUT",
+      description:
+        "The official website of Training and Placement Cell of MMMUT, that gives users a brief overview into the placement data, achievements and training activities.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tnp,
+      source_code_link: "https://github.com/Karti01kay/Official-Website_T-P",
+    },
+
+    {
+      name: "Metaverse Madness",
+      description:
+        "Transformed a Figma design into a fully functioning website using Next.js, Framer Motion, and Tailwind CSS, and built the Metaversus.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: metaverse,
+      source_code_link: "https://github.com/Karti01kay/meta-strange",
     },
   ];
   
